@@ -1,0 +1,44 @@
+name: photoforge
+description: "Professional photo editing and watermarking studio"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  flutter_riverpod: ^2.5.1
+
+  # Navigation
+  go_router: ^14.2.7
+
+  # Image selection
+  image_picker: ^1.1.2
+
+  # Local key-value storage
+  shared_preferences: ^2.3.2
+
+  # Local database (project metadata)
+  sqflite: ^2.3.3+1
+  path: ^1.9.0
+
+  # Icons
+  cupertino_icons: ^1.0.8
+
+  # Utilities
+  uuid: ^4.4.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
